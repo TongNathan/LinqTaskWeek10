@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\102090809\\Source\\Repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\LinqTask.csproj",
+      "projectUniqueName": "C:\\Users\\102090809\\source\\repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\LinqTask.csproj",
       "projectName": "LinqTask",
-      "projectPath": "C:\\Users\\102090809\\Source\\Repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\LinqTask.csproj",
+      "projectPath": "C:\\Users\\102090809\\source\\repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\LinqTask.csproj",
       "packagesPath": "C:\\Users\\102090809\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\102090809\\Source\\Repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\obj\\",
+      "outputPath": "C:\\Users\\102090809\\source\\repos\\LinqTaskWeek10\\LinqTask\\LinqTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

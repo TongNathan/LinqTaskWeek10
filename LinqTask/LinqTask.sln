@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTask", "LinqTask\LinqTask.csproj", "{8AB3C9D8-04C8-42BE-8B00-331719E803E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTask", "LinqTask\LinqTask.csproj", "{8AB3C9D8-04C8-42BE-8B00-331719E803E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Method_Syntax_Task", "Linq_Method_Syntax_Task\Linq_Method_Syntax_Task.csproj", "{4CC0354B-3351-4A9A-B813-CFD41FE61A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8AB3C9D8-04C8-42BE-8B00-331719E803E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB3C9D8-04C8-42BE-8B00-331719E803E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB3C9D8-04C8-42BE-8B00-331719E803E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC0354B-3351-4A9A-B813-CFD41FE61A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC0354B-3351-4A9A-B813-CFD41FE61A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC0354B-3351-4A9A-B813-CFD41FE61A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC0354B-3351-4A9A-B813-CFD41FE61A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
