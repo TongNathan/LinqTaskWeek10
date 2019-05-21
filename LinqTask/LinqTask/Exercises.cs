@@ -11,9 +11,11 @@ namespace LinqTask {
         // convert the following predicate functions into Lambda functions
         public void run() {
 
-            var result = Numbers.Where(FindNumbersLessThan100);
-            var people = Team.People.All(FindFirstNamesStartsWithJ);
-            var first = Numbers.FirstOrDefault(GreaterThan50);
+            var result = Numbers.Where(num => num < 100);
+
+            var people = Team.People.All(i => i.FirstName.StartsWith("J"));
+
+            var first = Numbers.FirstOrDefault(num => num > 50);
 
         }
 
@@ -37,18 +39,20 @@ namespace LinqTask {
         //  return only the strings that have 'pattern' in them
         public IEnumerable<string> FindPattern(IEnumerable<string> inputStrings, string pattern) {
             //Fix the lambda function to check that input has pattern within it.
-            return inputStrings.Where(input => input == "Foobar");
+            return inputStrings.Where(input => input.Contains(pattern));
         }
 
 
         // return inputStrings in alphabetical order
         public IEnumerable<string> OrderAlphabetically(IEnumerable<string> inputStrings) {
-            return inputStrings;
+            return inputStrings.OrderBy(input => input);
         }
 
         // return all people in a team who are older than age, sorted by Age descending
         public IEnumerable<Person> FindAllGreaterThanAge(Team team, int age) {
-            return team.People;
+            //return team.People;
+            return team.People.Where(a => a.GetAge() > age).OrderByDescending(x => x.GetAge());
+            
         }
 
         // return the first Person whose Lastname has num letters
