@@ -117,3 +117,5 @@ C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\
 C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\obj\Debug\Linq_Method_Syntax_Task.csproj.CopyComplete
 C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\obj\Debug\Linq_Method_Syntax_Task.dll
 C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\obj\Debug\Linq_Method_Syntax_Task.pdb
+C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\bin\Debug\Newtonsoft.Json.dll
+C:\Users\102090809\source\repos\LinqTaskWeek10\LinqTask\Linq_Method_Syntax_Task\bin\Debug\Newtonsoft.Json.xml

@@ -58,13 +58,13 @@ namespace LinqTask {
         // return the first Person whose Lastname has num letters
         // return null if none exists
         public Person FindLastnameLength(Team team, int num) {
-            return team.People[0];
+            return team.People.FirstOrDefault(i => i.LastName.Length == num);
         }
 
         // return Last person whose Lastname contains pattern
         // return null if none exists
         public Person FindLastnamePatternLast(Team team, string pattern) {
-            return team.People[0];
+            return team.People.LastOrDefault(i => i.LastName.Contains(pattern));
         }
 
         // return all numbers between positions of the first occurences of num1 and num2
